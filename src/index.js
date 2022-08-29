@@ -47,7 +47,7 @@ function createMarkup(country) {
       return `<img src=${country.flags.svg} alt='flag of ${
         country.name.official
       }' width='200'/>
-             <p>${country.name.official}</p>
+            <h2>${country.name.official}</h2>
             <p>Capital: ${country.capital}</p>
             <p>Population: ${country.population}</p>
             <p>Languages: ${Object.values(country.languages)}</p>`;
@@ -61,7 +61,7 @@ function createMarkupAll(country) {
   const markupСhoice = country
     .map(country => {
       return `<li class='country-item'>
-        <img src=${country.flags.svg} alt='flag of ${country.name.official}' width='60'/>
+        <img src=${country.flags.svg} alt='flag of ${country.name.official}' width='10%'/>
         <p>${country.name.official}</p>
         </li>`;
     })
