@@ -34,7 +34,6 @@ body {
 }
 
 img {
-  /* display: block; */
+  display: block;
   margin-right: 20px;
- 
 }
